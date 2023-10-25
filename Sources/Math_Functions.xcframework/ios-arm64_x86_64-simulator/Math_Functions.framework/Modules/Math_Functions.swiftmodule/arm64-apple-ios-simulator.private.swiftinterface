@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Math_Functions
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import GreetSPM
+import Logger
+@_exported import Math_Functions
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class Math_Functions : ObjectiveC.NSObject, Logger.LogProtocol, GreetSPM.GreetSPMProtocol {
+  public func greetUser()
+  public func sum(a: Swift.Int, b: Swift.Int) -> Swift.Int
+  public func sub(a: Swift.Int, b: Swift.Int) -> Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}

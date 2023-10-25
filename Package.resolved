@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "greetspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nidhi5920/GreetSPM",
+      "state" : {
+        "revision" : "7eb6f69537a8045112f6f308a4fef0b48ffa7df3",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "loggerspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nidhi5920/LoggerSPM",
+      "state" : {
+        "revision" : "177161e783beb538c5b693266624e5087212d33e",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

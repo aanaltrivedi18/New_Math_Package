@@ -1,0 +1,247 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Math_Functions",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GreetSPM",
+        "printedName": "GreetSPM",
+        "declKind": "Import",
+        "moduleName": "Math_Functions"
+      },
+      {
+        "kind": "Import",
+        "name": "Logger",
+        "printedName": "Logger",
+        "declKind": "Import",
+        "moduleName": "Math_Functions"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Math_Functions",
+        "printedName": "Math_Functions",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "greetUser",
+            "printedName": "greetUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Math_FunctionsAAC9greetUseryyF",
+            "mangledName": "$s14Math_FunctionsAAC9greetUseryyF",
+            "moduleName": "Math_Functions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sum",
+            "printedName": "sum(a:b:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Math_FunctionsAAC3sum1a1bS2i_SitF",
+            "mangledName": "$s14Math_FunctionsAAC3sum1a1bS2i_SitF",
+            "moduleName": "Math_Functions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sub",
+            "printedName": "sub(a:b:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Math_FunctionsAAC3sub1a1bS2i_SitF",
+            "mangledName": "$s14Math_FunctionsAAC3sub1a1bS2i_SitF",
+            "moduleName": "Math_Functions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Math_Functions",
+                "printedName": "Math_Functions.Math_Functions",
+                "usr": "c:@M@Math_Functions@objc(cs)Math_Functions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Math_Functions@objc(cs)Math_Functions(im)init",
+            "mangledName": "$s14Math_FunctionsAACABycfc",
+            "moduleName": "Math_Functions",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Math_Functions@objc(cs)Math_Functions",
+        "mangledName": "$s14Math_FunctionsAAC",
+        "moduleName": "Math_Functions",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LogProtocol",
+            "printedName": "LogProtocol",
+            "usr": "s:6Logger11LogProtocolP",
+            "mangledName": "$s6Logger11LogProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "GreetSPMProtocol",
+            "printedName": "GreetSPMProtocol",
+            "usr": "s:8GreetSPM0A11SPMProtocolP",
+            "mangledName": "$s8GreetSPM0A11SPMProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sapphire\/Documents\/FrameworkDistribution\/SPM\/Math_Functions\/Math_Functions\/Math_Functions.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 14,
+      "value": "\"testing log \""
+    },
+    {
+      "filePath": "\/Users\/sapphire\/Documents\/FrameworkDistribution\/SPM\/Math_Functions\/Math_Functions\/Math_Functions.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 7,
+      "value": "\"aanal\""
+    }
+  ]
+}
